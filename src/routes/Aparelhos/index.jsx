@@ -4,6 +4,7 @@ import styles from './index.module.css';
 import aparelhosData from '../../data/aparelhosData.jsx';
 
 function Aparelhos() {
+  
   const [aparelhos, setAparelhos] = useState(aparelhosData);
 
   return (
